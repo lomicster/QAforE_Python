@@ -55,3 +55,4 @@ print(student2.get_graduation_year())
 print(dir(FreshmanStudent))
 print(dir(SophomoreStudent))
 # 5.2. Cоздайте репозиторий на Github и отправьте файл с домашним заданием в этот удаленный репозиторий
+

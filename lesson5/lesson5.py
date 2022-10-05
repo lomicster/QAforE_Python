@@ -76,3 +76,20 @@ employee2 = Employee(surname="Popov", name="Vladimir")
 print(employee2.name)
 print(employee2.surname)
 print("~"*20)
+
+
+
+# Review
+
+from QAforEveryone.lesson5.lesson5 import Animal
+
+animal = Animal(name='Tuzik', weight=10, age=2)
+print(animal.__dict__)
+# print(animal.name)
+animal.print_info()
+print(animal.color)
+print(Animal.color)
+
+animal.set_name('Lelik')
+print(animal.color)
+print(Animal.color)

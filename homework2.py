@@ -31,12 +31,23 @@
 """Задание 2.4
 Напишите программу, которая печатает введенный текст заданное количество раз, построчно. 
 Текст и количество повторений нужно ввести с помощью input()"""
-i= 0
-text = input("Please enter your text: ")
-qty = int(input("Please enter quantity of iterations: "))
-while i < qty:
-    i += 1g
-    print(f"{i} text")
+# i= 0
+# text = input("Please enter your text: ")
+# qty = int(input("Please enter quantity of iterations: "))
+# while i < qty:
+#     i += 1
+#     print(f"{i} {text}")
 
+"""Задание 2.5.
+Напишите программу-калькулятор, которая принимает два числа и оператор (в формате str), производит заданное
+арифметическое действие и печатает результат в формате: {num1} {operator) {num2) = {result} """
 
+import my_calc as calc
+x = int(input("Please enter first number: "))
+y = int(input ("Please enter second number: "))
+operator = str(input("Please enter operator: "))
+
+if operator in ("+", "sum", "addition", "сложение" ):
+   print(f"{x} {operator} {y} = {calc.sum(x, y)}")
+elif operator in ("-", "вычитание")
 #Review session

@@ -42,18 +42,18 @@
 Напишите программу-калькулятор, которая принимает два числа и оператор (в формате str), производит заданное
 арифметическое действие и печатает результат в формате: {num1} {operator) {num2) = {result} """
 
-import my_calc as calc
-x = int(input("Please enter first number: "))
-y = int(input ("Please enter second number: "))
-operator = str(input("Please enter operator: "))
-
-if operator in ("+", "sum", "addition", "сложение"):
-   print(f"{x} {operator} {y} = {calc.sum(x, y)}")
-elif operator in ("-", "subtraction", "вычитание"):
-   print(f"{x} {operator} {y} = {calc.subs(x, y)}")
-elif operator in ("*", "multiplication", "умножение"):
-   print(f"{x} {operator} {y} = {calc.prod(x, y)}")
-elif operator in ("/","division ", "деление"):
-   print(f"{x} {operator} {y} = {calc.div(x, y)}")
+# import my_calc as calc
+# x = int(input("Please enter first number: "))
+# y = int(input ("Please enter second number: "))
+# operator = str(input("Please enter operator: "))
+#
+# if operator in ("+", "sum", "addition", "сложение"):
+#    print(f"{x} {operator} {y} = {calc.sum(x, y)}")
+# elif operator in ("-", "subtraction", "вычитание"):
+#    print(f"{x} {operator} {y} = {calc.subs(x, y)}")
+# elif operator in ("*", "multiplication", "умножение"):
+#    print(f"{x} {operator} {y} = {calc.prod(x, y)}")
+# elif operator in ("/","division ", "деление"):
+#    print(f"{x} {operator} {y} = {calc.div(x, y)}")
 
 #Review session

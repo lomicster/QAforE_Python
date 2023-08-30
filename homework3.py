@@ -71,3 +71,5 @@ print("Diffent values: ", set1.difference(set2))
 print("Totaly different values: ", set1.symmetric_difference(set2))
 print(set2.issuperset(set1))
 print(set2.issubset(set1))
+
+#Codewars#

@@ -22,9 +22,9 @@ print(tuple(list_3))
 family_1 = input("Enter first family's members: ")
 family_2 = input("Enter second family's members: ")
 if len(family_1.split(", ")) > len(family_2.split(", ")):
-    print("Firt family is biger")
+    print("First family is bigger")
 elif len(family_1.split(", ")) < len(family_2.split(", ")):
-    print("Seconde family is biger")
+    print("Second family is bigger")
 else:
     print("Families are equal")
 
@@ -71,5 +71,3 @@ print("Diffent values: ", set1.difference(set2))
 print("Totaly different values: ", set1.symmetric_difference(set2))
 print(set2.issuperset(set1))
 print(set2.issubset(set1))
-
-#Codewars#

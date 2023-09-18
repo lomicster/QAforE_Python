@@ -1,13 +1,16 @@
 # ВСТРОЕННЫЕ ФУНКЦИИ (BUILT-IN FUNCTIONS)
 # min_arg = min(5, 6, 8, 10)
-# print(min_arg)
+# print
+# min_item = min(20, 15, 77, 100)
+# print(min_item)
 #
 # FUNCTIONS
 
-# def person(age, last_name='Smith', name='Anna'):
-#     return 'Hello, my name is' {name} {last_name}. I am {age} years old'
+# def person(age, last_name='Smith', first_name='Anna'):
+#     return f'Hello, my name is' {first_name} {last_name}. I am {age} years old'
 #
-# print(person(name='Alce', age=30))
+
+# print(person(name='Alice', age=30))
 
 
 # def pattern(length, char1='-', char2='*'):
